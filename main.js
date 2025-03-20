@@ -1,14 +1,8 @@
+/* Arrow function */
 
-/* Declarando Variaveis */
-
-var a = 5 
-var b = 10
-
-function soma (x,y){ // testando a funçao soma
-    let sum = x+y
-    return sum
+const sub = (a,b) => {
+    return a-b;
 }
 
-console.log(soma(a,b))
 
-
+console.log(sub)
