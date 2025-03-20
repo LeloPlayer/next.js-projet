@@ -1,10 +1,12 @@
-const array = [2,3,4,5,6]; // Criando array
+/* Funçoes e classes */
 
-array.forEach(item =>{ // para cada item do array (item)
-    if(item % 2 === 0){ // se fr par...
-        console.log(`O numero ${item} é par`); // faça isso..
-    }
-    else{ // se nao for...
-        console.log(`O numero ${item} é impar`); // faça isso..
-    }
-});
+function Pessoa (nome){ // Criando funçao e classe
+    this.nome =  a
+    this.idade = b; // atributos da classe
+}
+
+const x =  new Pessoa('Samuel', 21); // declarando a classe
+const y = new Pessoa('Felipe' , 20)
+
+console.log(x);
+console.log(y);
