@@ -1,12 +1,14 @@
-/* Funçoes e classes */
+/* Carro 2014*/
 
-function Pessoa (nome){ // Criando funçao e classe
-    this.nome =  a
-    this.idade = b; // atributos da classe
+function Carro (a,b,c,d,e){ // Criando funçao e classe
+    this.modelo=  a
+    this.cor = b // atributos da classe
+    this.ano = c
+    this.valor= d
+    this.popular = e; 
+    
 }
+ var carro = new Carro('Ferrari 458 italy edition', 'preto', 2014, 1200000, false)
 
-const x =  new Pessoa('Samuel', 21); // declarando a classe
-const y = new Pessoa('Felipe' , 20)
 
-console.log(x);
-console.log(y);
+console.log(carro);
