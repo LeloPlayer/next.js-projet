@@ -1,14 +1,16 @@
-/* Carro 2014*/
-
-function Carro (a,b,c,d,e){ // Criando funçao e classe
-    this.modelo=  a
-    this.cor = b // atributos da classe
-    this.ano = c
-    this.valor= d
-    this.popular = e; 
-    
-}
- var carro = new Carro('Ferrari 458 italy edition', 'preto', 2014, 1200000, false)
 
 
-console.log(carro);
+var lista = ["Samuel","Felipe","Tanaka","Damares"]; // Declarando as variaveis
+
+console.log(lista) // executando o comando em forma de lista
+
+console.log(lista[3]); // executando a quarta variavel, lembrando que começa pelo numero 0
+
+lista.push("Samuel"); // adiciona um elemento a lsita
+console.log(lista);
+
+lista.pop("Samuel"); // remove o ultimo elemento da lista
+console.log(lista);
+
+
+console.log(lista.length); // exibe a quantidade de elementos do array 
